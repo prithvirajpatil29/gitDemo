@@ -1,0 +1,123 @@
+@media(max-width:768px){
+    .container{
+        flex-direction: column;
+    }
+    .page1{
+        padding: 30px 10px;
+        height: 800px;
+    }
+    header{
+        padding: 5px;
+    }
+    .nav>ul>li{
+        display: block;
+    }
+    .places{
+        /* padding-top: 200px; */
+        padding:200px 5px ;
+    }
+    .places>h1{
+        font-size: 30px;
+    }
+    .places>.search{
+        width: 100%;
+        height: 200px;
+        padding: 10px;
+    }
+    .places>.search>.col4{
+        width: 100%;
+        border-bottom-left-radius: 10px;
+    }
+    .icons-brief{
+        flex-direction: row;
+    }
+    .icons-brief>.icon{
+        padding: 0px;
+    }
+    .icons-brief>.icon>.faf{
+        font-size: 15px;
+        padding: 15px;
+    }
+    .popular>center{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .popularpage{
+        margin: 10px;
+    }
+    .popularpage>.popularicons>.popularicon{
+        text-align: start;
+        padding: 20px 100px;
+    }
+    .popularpage>.popularicons>.popularicon:last-child{
+        border-radius: 0px;
+    }
+    .popularpage>.popularicons>.popularicon>.faf{
+        margin: 0px;
+    }
+    .recentbox{
+        margin: 10px;
+    }
+    .recentbox>.rctimgage>img{
+        border-bottom-left-radius: 0px;
+        border-top-right-radius: 10px;
+        max-width: 100%;
+
+    }
+    .recentbox>.rctrating{
+        line-height: 10px;
+        padding: 10px;
+    }
+    .recentbox>.rctrating>div>button{
+        margin: 10px 0px;
+    }
+    .recentbox>.rctrating>div>button>.container{
+        flex-direction: row;
+    }
+    .footer{
+        margin: 10px;
+    }
+    .footer>.footcol>.help{
+        align-items: start;
+    }
+    .footer>.footcol>.help>.helplinks{
+        padding: 0px;
+    }
+    .footcol>.mobile{
+        flex-direction: row;
+        align-items: start;
+    }
+}
+
+@media(min-width:769px) and (max-width:1200px){
+    
+    .page1{
+        padding: 30px 30px;
+    }
+    .popularpage{
+        margin: 20px;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .recentbox{
+        margin: 20px;
+        /* flex-direction: column; */
+    }
+    .recentbox>.rctimgage>img{
+        width: 100%;
+        height: 400px;
+    }
+    .footer{
+        margin: 20px;
+    }
+    .footcol:last-child{
+        
+    }
+    .footcol>.mobile{
+        flex-direction: column;
+        align-items: start;
+    }
+}
